@@ -1,0 +1,2921 @@
+fileFormatVersion: 2
+guid: 8b28cf962749ab540bafb13e5ac0e83f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1366
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e579a8e978f0a41bea40a41986de1d
+      internalID: 1760644886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1366
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538523728bfaddd48b768635a7f0a1e0
+      internalID: -1436604269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1369
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba7bfe5512fdfb47a19166deb4ec862
+      internalID: 96238746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1372
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ea0f8c9bcc0944980294b70fa4578a
+      internalID: -1903890385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1374
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994163b77868e44ab264b86090b310d
+      internalID: -1064518179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_5
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1372
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8054b030fba6e864d9a6f593fc9b2308
+      internalID: -2078683471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1367
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e1ed706c7ada4abb9f573be877d2b
+      internalID: -643041618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1366
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f270129079d8fe4c8f4b5d4744aad20
+      internalID: -1536255569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_8
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1366
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def1809e063431c478b29b528c88faa0
+      internalID: 649082466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_9
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1366
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748abb316915dd043a4a36a910ae1639
+      internalID: 1840293507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_10
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1366
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450935f732d48ec4cbc5adb91482e033
+      internalID: -1643411302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1366
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a7ddde06b1474e81efc6bfd1d78ab
+      internalID: -450754932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1233
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20ee2fb6dd24d41bff61004655a98a
+      internalID: 318656561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1234
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abe2a5a7aae3e24f9bcd51ba13994d5
+      internalID: 1531786418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1236
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30e4f636978df7408824cba1d8d6aa2
+      internalID: -444035999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1239
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843966cb2d149f840b39281fb68b73c0
+      internalID: 1852326129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1241
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d00c9dc288f64fb483aa18ccab4ce
+      internalID: 555935073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_17
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1239
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7244f5d126ee24d44aa175a7673e3143
+      internalID: 1208874779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1234
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56625c8e52cdccd4e95e847b4b48bfe1
+      internalID: 2069676182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1233
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833665eaa672ac428af9b30f2d4be0e
+      internalID: -1387280206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_20
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1233
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d06ff73364af42a48b125757871fd
+      internalID: 81262242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_21
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1233
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bc268983c909c4da9350accd1ef8db
+      internalID: -163234459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_22
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1233
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299ce7ce82ae1784ba1a2d1c4018a572
+      internalID: -912524615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1233
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f413c50adb0fa4e8456b1ad6109538
+      internalID: -550554700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1100
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a00139acaa2ac47ae2533d79b98323
+      internalID: 940791626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1100
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be156d8096bd85478f5e284866456b2
+      internalID: -2018148085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1100
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8fe15f9522a5f48a878c56bd029dc7
+      internalID: -863502476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1100
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70118971b07ba804d95a8100e0f66e8c
+      internalID: 1889136679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_28
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1100
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45bbf7124f2cc4ba4779197507d951
+      internalID: 1885144325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_29
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1100
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f2b917d04bc11438a28db5e80232df
+      internalID: -1151732590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_30
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1100
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ab7b3c99218ac4081fae66b42a169b
+      internalID: -1170453391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_31
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1100
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bbc0a9cd97aa40a5165320a4ae398
+      internalID: 16484233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_32
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1100
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7720a77a41b1a1408c378764eef3910
+      internalID: -2002805668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_33
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1100
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608a618ce68b7045b84e5ef7147b631
+      internalID: 24548923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_34
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1100
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652b704176c641439561f8ce15226ad
+      internalID: -1794440298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_35
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1102
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c134d7cab7b0b4c86df1c9f7c61b44
+      internalID: -1230114294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 969
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c559661dcfb72e479b9f2b8966270cf
+      internalID: 2051524546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 969
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753ee3288ae7db84ca52e256a0a9a220
+      internalID: -400373435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_38
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 971
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b238e902bb2d2b4caa8ba4bc283d4a4
+      internalID: -1599867687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_39
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 971
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4278491741e9f4c961bad0b2c8a51d
+      internalID: 2022932274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_40
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 971
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dfb76ea94bc1c4b9642b8fa15213c6
+      internalID: 98354560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 971
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526affe64b1f514f87ced26ad65c78c
+      internalID: -1899235248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_42
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 970
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be1be1b535f9346aeb9f8a4af1931a
+      internalID: 196414969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_43
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 969
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c4f8e36a18c9344b403227592d4213
+      internalID: 1253823334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_44
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 968
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f188e42522e943a9311e51b840ffc
+      internalID: 17176533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 967
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032850fe9cc753c4992ce8ba08ab865d
+      internalID: 915701452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_46
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 967
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61aa5820b2fa6d46945144335d54816
+      internalID: -590593519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_47
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 967
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e5f070904f5a8488ed5c1586e15574
+      internalID: -735100219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_48
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 834
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f8a41f5141d741b331f8e64a3b745
+      internalID: 200331452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_49
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 834
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f80d36058d8deb45b96899561065fc4
+      internalID: 1438893678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_50
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 834
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f0fd6197cf0a849ac7890995e787ab
+      internalID: 450978125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_51
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 834
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7e549ea650b684f8f6221f5010c522
+      internalID: 173684577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_52
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 834
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b04b503866a2f74f8c6b45cfeae79ba
+      internalID: -1296746510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_53
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 834
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8994312b16fe794cbf00d43b04ab4d8
+      internalID: -1820277121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_54
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 834
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17b264b003924429b4c84428b1063e
+      internalID: 286399771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_55
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 834
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c2b34eb9b84e24ca453a0560aa9a1a
+      internalID: -228642988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_56
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 834
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f30079ba96944a9417a35a525dfa4
+      internalID: 1944301093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_57
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 834
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa8167b4d382948975f81390d22cb5
+      internalID: -455727499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_58
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 834
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba513b9b23b91d44b4c7ed107c56a39
+      internalID: -122579520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_59
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 834
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d8f35c15c7db94baf34221cc6cb1fa
+      internalID: -777082631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_60
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 701
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db29c17359eab04e9a41b0d149b3546
+      internalID: 974194532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 701
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87acc76aa5023184cb411798d42960da
+      internalID: 1047372003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_62
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 701
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f627f3ba70ccd34ab9f973aed418f23
+      internalID: -1173075323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_63
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 701
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585de21caf6c13b4bb2871e2cbfb1520
+      internalID: -2144894264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_64
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 701
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2cb122e18fd3744b5602a81cad877b
+      internalID: -1286652857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_65
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 701
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a27b50e4e1839d4d9e0b53702443c0f
+      internalID: -1594384651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_66
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 701
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5554a2335ada3af46a3d7486adc483b3
+      internalID: 741706112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_67
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 701
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47973df8559bac74b9edc6ecc7757be1
+      internalID: -1262631214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_68
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 701
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef7429597d1c1b4aa5351f8cfe8ffe8
+      internalID: 1255237257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_69
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 701
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f3b706943142640b0c98799b1f73e5
+      internalID: 667484848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_70
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 701
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f71792e9217ba4d9fb47b1644ef88f
+      internalID: 981108424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_71
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 701
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a99c6e3fcccdf42a81aa421dc74f63
+      internalID: 1153498118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_72
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 568
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2895dd43c2575a4c878497b9d60cc8a
+      internalID: -1945878614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_73
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 568
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a9998dfb809e04d80e728cb5dbc7d5
+      internalID: -1722077001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_74
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489590bccc8d9a5498a1ef9124d8f4b7
+      internalID: 340532383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_75
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8921639696a47a64ea136c6714d2cc22
+      internalID: 1531965142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_76
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db2af5150d3f448beb6fe849df9f56
+      internalID: -695737941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_77
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f2ddab14d1c18499a3402745bb4903
+      internalID: -1476631788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_78
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 568
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fee985b6575654f9f9f5e320edaf02
+      internalID: -208068104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_79
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 568
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd642e2846e6474994e79d5d4a5a93e
+      internalID: 791210979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_80
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 568
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aca9ea2d5aebec44a6a9689ecf9fce0
+      internalID: -1747721389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_81
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 568
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2468be4a043e6f54e8f1ef15a0eccc7d
+      internalID: -999637210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_82
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 568
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72beb833866eb9f4c82ae986373f6eca
+      internalID: 1544071756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_83
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 568
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8864f01450519644ba3ed8f8adb644b0
+      internalID: 184987744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_84
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 435
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87580a5eaa6484e4ca5942aa65721d3f
+      internalID: -555778504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_85
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 435
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7aa410ae845a841a186d8fb8d3a604
+      internalID: 1091226652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_86
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 435
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868067e1e638c2246bd47e5f3c2f7d18
+      internalID: 440022971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_87
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 435
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4ff1faed7aa5e4795602df722c794a
+      internalID: -140693777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_88
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 435
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdc777765ee16b42a64a170725f2d38
+      internalID: 563145226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 435
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1ee988490bb5d4797cef43cbdc6919
+      internalID: -924910738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_90
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 435
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5669b2a8009c0445b562b88fdde8a01
+      internalID: -587569283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_91
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 435
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5886d86a9b0c4884d5073025d34a7
+      internalID: -1367370299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_92
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 435
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131ad034c2bc71243aee90542521ae25
+      internalID: -1075067404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_93
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 435
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb6db57642af174da2d10f46d847a97
+      internalID: -578057771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_94
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 435
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa1cc8d523bb75479f8288b81268cec
+      internalID: -47390326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_95
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 435
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f541e4a00eece468e4a2db1632c397
+      internalID: 1088481451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_96
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 302
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45697b023c0e04742bfb69fbd009089d
+      internalID: 1056976728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_97
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 302
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cff12ee2d87475419ad6e28168efef3
+      internalID: 1749912210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_98
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 302
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd614a1ec39d754c8068169b190a560
+      internalID: 544277591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_99
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 302
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a333dc99ef0324347bb91f87903d9746
+      internalID: 959587494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_100
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 302
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb65542a66bfee4aaff6dbc469a1209
+      internalID: -768566187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_101
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 302
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3e54f1fae66043970e4665826abe3
+      internalID: -291998509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_102
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 302
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e6561e9a3aaff46bd362b940ea874b
+      internalID: 1151283549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_103
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 302
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43367e69a38451418edaa591cb43eba
+      internalID: 165226993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_104
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 302
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3589ad6f041d1974cb05707ea4aeb8c2
+      internalID: -1522260607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_105
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 302
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce2d610f29e66148968faef79925204
+      internalID: 1429739084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_106
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 302
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f63ec57fc0b7fd498d797ca6a602cb2
+      internalID: 1804112325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_107
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 302
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dd85df9b8d3214d8c46dffde3451b3
+      internalID: 2006715248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_108
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 169
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1531edaa06045e409202bd3427798fb
+      internalID: -1427767819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_109
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 169
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b4dc7d081f8a4fbffe7c0c47e7d32
+      internalID: 1404326172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_110
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 169
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0144be8e10f4a364fb7f904fd1a545cb
+      internalID: 234618151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_111
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 169
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339d96902d0083042bbd841d9fc8589c
+      internalID: -1068750354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_112
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 169
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351f04ec6ddb08e4aad818dae86bd744
+      internalID: 1012409621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_113
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c68e17417b98774a996477d20bf018a
+      internalID: 1786290077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_114
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 169
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653d451ef6f9f1a458393c6b18c8fbbf
+      internalID: -753349735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_115
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 169
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f821e410dfedfb4581abc7a6bdf93aa
+      internalID: 1374433618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_116
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 169
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f601a75cec0a1ff4eb1a3194cd0e799a
+      internalID: 1466869655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_117
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 169
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f75eab6b60b04aa18797896d557de
+      internalID: 1717256016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_118
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 169
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f946f8f05dcddd4b981fb87819e6ad1
+      internalID: 2132166567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_119
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 169
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40960bb489afa6041be090ad0dc35c68
+      internalID: 1696351737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_120
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773198d85e30e746b7bf5eb707516fc
+      internalID: -982342913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94e29ca93046134286dc8eb8f8bada5
+      internalID: -790231183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_122
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6f4fa888c2fac4089a47af46f388fe
+      internalID: 789789244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_123
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b5ef62b24be04dbe0de656ab05820
+      internalID: -747584366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_124
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 36
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff25c772938b204d9fadd42f543c38d
+      internalID: 1847998619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_125
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 36
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e46e1ad2aa9b934d8517b4a2fe018fc
+      internalID: 1137589308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free - the frippedd dailypng_126
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 36
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7338e90af397de346bb3c7c679754619
+      internalID: -1649977923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      red hood itch free - the frippedd dailypng_0: 1760644886
+      red hood itch free - the frippedd dailypng_1: -1436604269
+      red hood itch free - the frippedd dailypng_10: -1643411302
+      red hood itch free - the frippedd dailypng_100: -768566187
+      red hood itch free - the frippedd dailypng_101: -291998509
+      red hood itch free - the frippedd dailypng_102: 1151283549
+      red hood itch free - the frippedd dailypng_103: 165226993
+      red hood itch free - the frippedd dailypng_104: -1522260607
+      red hood itch free - the frippedd dailypng_105: 1429739084
+      red hood itch free - the frippedd dailypng_106: 1804112325
+      red hood itch free - the frippedd dailypng_107: 2006715248
+      red hood itch free - the frippedd dailypng_108: -1427767819
+      red hood itch free - the frippedd dailypng_109: 1404326172
+      red hood itch free - the frippedd dailypng_11: -450754932
+      red hood itch free - the frippedd dailypng_110: 234618151
+      red hood itch free - the frippedd dailypng_111: -1068750354
+      red hood itch free - the frippedd dailypng_112: 1012409621
+      red hood itch free - the frippedd dailypng_113: 1786290077
+      red hood itch free - the frippedd dailypng_114: -753349735
+      red hood itch free - the frippedd dailypng_115: 1374433618
+      red hood itch free - the frippedd dailypng_116: 1466869655
+      red hood itch free - the frippedd dailypng_117: 1717256016
+      red hood itch free - the frippedd dailypng_118: 2132166567
+      red hood itch free - the frippedd dailypng_119: 1696351737
+      red hood itch free - the frippedd dailypng_12: 318656561
+      red hood itch free - the frippedd dailypng_120: -982342913
+      red hood itch free - the frippedd dailypng_121: -790231183
+      red hood itch free - the frippedd dailypng_122: 789789244
+      red hood itch free - the frippedd dailypng_123: -747584366
+      red hood itch free - the frippedd dailypng_124: 1847998619
+      red hood itch free - the frippedd dailypng_125: 1137589308
+      red hood itch free - the frippedd dailypng_126: -1649977923
+      red hood itch free - the frippedd dailypng_13: 1531786418
+      red hood itch free - the frippedd dailypng_14: -444035999
+      red hood itch free - the frippedd dailypng_15: 1852326129
+      red hood itch free - the frippedd dailypng_16: 555935073
+      red hood itch free - the frippedd dailypng_17: 1208874779
+      red hood itch free - the frippedd dailypng_18: 2069676182
+      red hood itch free - the frippedd dailypng_19: -1387280206
+      red hood itch free - the frippedd dailypng_2: 96238746
+      red hood itch free - the frippedd dailypng_20: 81262242
+      red hood itch free - the frippedd dailypng_21: -163234459
+      red hood itch free - the frippedd dailypng_22: -912524615
+      red hood itch free - the frippedd dailypng_23: -550554700
+      red hood itch free - the frippedd dailypng_24: 940791626
+      red hood itch free - the frippedd dailypng_25: -2018148085
+      red hood itch free - the frippedd dailypng_26: -863502476
+      red hood itch free - the frippedd dailypng_27: 1889136679
+      red hood itch free - the frippedd dailypng_28: 1885144325
+      red hood itch free - the frippedd dailypng_29: -1151732590
+      red hood itch free - the frippedd dailypng_3: -1903890385
+      red hood itch free - the frippedd dailypng_30: -1170453391
+      red hood itch free - the frippedd dailypng_31: 16484233
+      red hood itch free - the frippedd dailypng_32: -2002805668
+      red hood itch free - the frippedd dailypng_33: 24548923
+      red hood itch free - the frippedd dailypng_34: -1794440298
+      red hood itch free - the frippedd dailypng_35: -1230114294
+      red hood itch free - the frippedd dailypng_36: 2051524546
+      red hood itch free - the frippedd dailypng_37: -400373435
+      red hood itch free - the frippedd dailypng_38: -1599867687
+      red hood itch free - the frippedd dailypng_39: 2022932274
+      red hood itch free - the frippedd dailypng_4: -1064518179
+      red hood itch free - the frippedd dailypng_40: 98354560
+      red hood itch free - the frippedd dailypng_41: -1899235248
+      red hood itch free - the frippedd dailypng_42: 196414969
+      red hood itch free - the frippedd dailypng_43: 1253823334
+      red hood itch free - the frippedd dailypng_44: 17176533
+      red hood itch free - the frippedd dailypng_45: 915701452
+      red hood itch free - the frippedd dailypng_46: -590593519
+      red hood itch free - the frippedd dailypng_47: -735100219
+      red hood itch free - the frippedd dailypng_48: 200331452
+      red hood itch free - the frippedd dailypng_49: 1438893678
+      red hood itch free - the frippedd dailypng_5: -2078683471
+      red hood itch free - the frippedd dailypng_50: 450978125
+      red hood itch free - the frippedd dailypng_51: 173684577
+      red hood itch free - the frippedd dailypng_52: -1296746510
+      red hood itch free - the frippedd dailypng_53: -1820277121
+      red hood itch free - the frippedd dailypng_54: 286399771
+      red hood itch free - the frippedd dailypng_55: -228642988
+      red hood itch free - the frippedd dailypng_56: 1944301093
+      red hood itch free - the frippedd dailypng_57: -455727499
+      red hood itch free - the frippedd dailypng_58: -122579520
+      red hood itch free - the frippedd dailypng_59: -777082631
+      red hood itch free - the frippedd dailypng_6: -643041618
+      red hood itch free - the frippedd dailypng_60: 974194532
+      red hood itch free - the frippedd dailypng_61: 1047372003
+      red hood itch free - the frippedd dailypng_62: -1173075323
+      red hood itch free - the frippedd dailypng_63: -2144894264
+      red hood itch free - the frippedd dailypng_64: -1286652857
+      red hood itch free - the frippedd dailypng_65: -1594384651
+      red hood itch free - the frippedd dailypng_66: 741706112
+      red hood itch free - the frippedd dailypng_67: -1262631214
+      red hood itch free - the frippedd dailypng_68: 1255237257
+      red hood itch free - the frippedd dailypng_69: 667484848
+      red hood itch free - the frippedd dailypng_7: -1536255569
+      red hood itch free - the frippedd dailypng_70: 981108424
+      red hood itch free - the frippedd dailypng_71: 1153498118
+      red hood itch free - the frippedd dailypng_72: -1945878614
+      red hood itch free - the frippedd dailypng_73: -1722077001
+      red hood itch free - the frippedd dailypng_74: 340532383
+      red hood itch free - the frippedd dailypng_75: 1531965142
+      red hood itch free - the frippedd dailypng_76: -695737941
+      red hood itch free - the frippedd dailypng_77: -1476631788
+      red hood itch free - the frippedd dailypng_78: -208068104
+      red hood itch free - the frippedd dailypng_79: 791210979
+      red hood itch free - the frippedd dailypng_8: 649082466
+      red hood itch free - the frippedd dailypng_80: -1747721389
+      red hood itch free - the frippedd dailypng_81: -999637210
+      red hood itch free - the frippedd dailypng_82: 1544071756
+      red hood itch free - the frippedd dailypng_83: 184987744
+      red hood itch free - the frippedd dailypng_84: -555778504
+      red hood itch free - the frippedd dailypng_85: 1091226652
+      red hood itch free - the frippedd dailypng_86: 440022971
+      red hood itch free - the frippedd dailypng_87: -140693777
+      red hood itch free - the frippedd dailypng_88: 563145226
+      red hood itch free - the frippedd dailypng_89: -924910738
+      red hood itch free - the frippedd dailypng_9: 1840293507
+      red hood itch free - the frippedd dailypng_90: -587569283
+      red hood itch free - the frippedd dailypng_91: -1367370299
+      red hood itch free - the frippedd dailypng_92: -1075067404
+      red hood itch free - the frippedd dailypng_93: -578057771
+      red hood itch free - the frippedd dailypng_94: -47390326
+      red hood itch free - the frippedd dailypng_95: 1088481451
+      red hood itch free - the frippedd dailypng_96: 1056976728
+      red hood itch free - the frippedd dailypng_97: 1749912210
+      red hood itch free - the frippedd dailypng_98: 544277591
+      red hood itch free - the frippedd dailypng_99: 959587494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
