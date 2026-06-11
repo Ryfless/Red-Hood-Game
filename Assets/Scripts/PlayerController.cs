@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float slideDistance = 6f;
     [SerializeField] private float slideDuration = 0.3f;
     [SerializeField] private float slideCooldown = 0.5f;
-    [SerializeField] private float slideGroundPullForce = 50f;
 
     [Header("Jump")]
     [SerializeField] private float jumpForce = 12f;
@@ -174,12 +173,6 @@ public class PlayerController : MonoBehaviour
             rb.velocity.y
         );
 
-        // Pull player to ground to stay low
-        rb.velocity = new Vector2(
-            rb.velocity.x,
-            rb.velocity.y - slideGroundPullForce * Time.fixedDeltaTime
-        );
-
         slideTimer += Time.fixedDeltaTime;
 
         if (slideTimer >= slideDuration)
@@ -276,6 +269,11 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(
             "IsGrounded",
             isGrounded
+        );
+
+        animator.SetBool(
+            "IsSliding",
+            isSliding
         );
     }
 
