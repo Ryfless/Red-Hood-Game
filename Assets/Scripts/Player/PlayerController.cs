@@ -26,10 +26,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundCheckDistance = 0.05f;
 
+    [Header("Attack")]
+    [SerializeField] private float attackCooldown = 0.5f;
+    // [SerializeField] private float attackDamage = 10f;
+    // [SerializeField] private float attackRange = 1f;
+
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private PlayerHealth playerHealth;
+    private PlayerCombat playerCombat;
 
     private Vector2 moveInput;
 
@@ -43,6 +50,10 @@ public class PlayerController : MonoBehaviour
     private bool isSliding = false;
     private float slideTimer = 0f;
     private float slideCooldownTimer = 0f;
+    
+    // Attack variables
+    private bool isAttacking = false;
+    private float attackCooldownTimer = 0f;
     
     // Store original collider values
     private Vector2 originalColliderOffset;
@@ -58,6 +69,8 @@ public class PlayerController : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerHealth = GetComponent<PlayerHealth>();
+        playerCombat = GetComponent<PlayerCombat>();
         
         // Store original collider values
         originalColliderOffset = boxCollider.offset;
@@ -72,12 +85,18 @@ public class PlayerController : MonoBehaviour
         HandleJumpBuffer();
         HandleFlip();
         UpdateSlideTimer();
+        UpdateAttackCooldown();
 
         UpdateAnimator();
     }
 
     private void FixedUpdate()
     {
+        if (playerHealth != null && playerHealth.IsKnockedBack)
+        {
+            return;
+        }
+
         if (isSliding)
         {
             Slide();
@@ -121,6 +140,14 @@ public class PlayerController : MonoBehaviour
         if (context.started && !isSliding && slideCooldownTimer <= 0f)
         {
             StartSlide();
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started && !isAttacking && attackCooldownTimer <= 0f)
+        {
+            StartAttack();
         }
     }
 
@@ -193,17 +220,58 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void StartAttack()
+    {
+        isAttacking = true;
+        attackCooldownTimer = attackCooldown;
+
+        animator.SetTrigger("Attack");
+    }
+
+    public void EnableAttackHitbox()
+    {
+        playerCombat?.EnableAttackHitbox();
+    }
+
+    public void DisableAttackHitbox()
+    {
+        playerCombat?.DisableAttackHitbox();
+    }
+
+    public void EndAttack()
+    {
+        isAttacking = false;
+    }
+
+    private void UpdateAttackCooldown()
+    {
+        if (attackCooldownTimer > 0f)
+        {
+            attackCooldownTimer -= Time.deltaTime;
+            if (attackCooldownTimer <= 0f)
+            {
+                attackCooldownTimer = 0f;
+                if (isAttacking)
+                {
+                    isAttacking = false;
+                }
+            }
+        }
+    }
+
     private void HandleFlip()
     {
         if (moveInput.x > 0 && !facingRight)
         {
             facingRight = true;
             spriteRenderer.flipX = false;
+            playerCombat?.SetAttackFacing(facingRight);
         }
         else if (moveInput.x < 0 && facingRight)
         {
             facingRight = false;
             spriteRenderer.flipX = true;
+            playerCombat?.SetAttackFacing(facingRight);
         }
     }
 
@@ -274,6 +342,11 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(
             "IsSliding",
             isSliding
+        );
+
+        animator.SetBool(
+            "IsAttacking",
+            isAttacking
         );
     }
 

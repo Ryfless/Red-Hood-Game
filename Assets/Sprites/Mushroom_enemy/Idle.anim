@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightAtk_1
+  m_Name: Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -455727499, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+      value: {fileID: -901770456, guid: 3690d99537b1ba449a02faee59127478, type: 3}
     - time: 0.016666668
-      value: {fileID: -122579520, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+      value: {fileID: -765325990, guid: 3690d99537b1ba449a02faee59127478, type: 3}
     - time: 0.033333335
-      value: {fileID: -777082631, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+      value: {fileID: 877823572, guid: 3690d99537b1ba449a02faee59127478, type: 3}
     - time: 0.05
-      value: {fileID: 974194532, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+      value: {fileID: 400633811, guid: 3690d99537b1ba449a02faee59127478, type: 3}
     - time: 0.06666667
-      value: {fileID: 1047372003, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+      value: {fileID: 628865106, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - time: 0.083333336
+      value: {fileID: 456196829, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - time: 0.1
+      value: {fileID: -328327094, guid: 3690d99537b1ba449a02faee59127478, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,17 +56,19 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -455727499, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
-    - {fileID: -122579520, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
-    - {fileID: -777082631, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
-    - {fileID: 974194532, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
-    - {fileID: 1047372003, guid: 8b28cf962749ab540bafb13e5ac0e83f, type: 3}
+    - {fileID: -901770456, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: -765325990, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: 877823572, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: 400633811, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: 628865106, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: 456196829, guid: 3690d99537b1ba449a02faee59127478, type: 3}
+    - {fileID: -328327094, guid: 3690d99537b1ba449a02faee59127478, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.083333336
+    m_StopTime: 0.11666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -81,25 +87,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0
-    functionName: EnableAttackHitbox
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.05
-    functionName: DisableAttackHitbox
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.06666667
-    functionName: EndAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
