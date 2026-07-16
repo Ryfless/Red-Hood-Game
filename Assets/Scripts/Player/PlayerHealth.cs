@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerStats))]
 [RequireComponent(typeof(PlayerAnimation))]
@@ -89,5 +90,7 @@ public class PlayerHealth : MonoBehaviour
         {
             col.enabled = false;
         }
+
+        SceneManager.LoadScene("Death_UI");
     }
 }
