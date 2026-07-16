@@ -31,12 +31,19 @@ public class PlayerController : MonoBehaviour
     // [SerializeField] private float attackDamage = 10f;
     // [SerializeField] private float attackRange = 1f;
 
+    [Header("Slide Collision")]
+    [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private LayerMask enemyLayer;
+
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private PlayerHealth playerHealth;
     private PlayerCombat playerCombat;
+
+    private int playerLayerIndex;
+    private int enemyLayerIndex;
 
     private Vector2 moveInput;
 
@@ -75,6 +82,20 @@ public class PlayerController : MonoBehaviour
         // Store original collider values
         originalColliderOffset = boxCollider.offset;
         originalColliderSize = boxCollider.size;
+
+        playerLayerIndex = LayerIndexFromMask(playerLayer);
+        enemyLayerIndex = LayerIndexFromMask(enemyLayer);
+    }
+
+    private static int LayerIndexFromMask(LayerMask mask)
+    {
+        int value = mask.value;
+        for (int i = 0; i < 32; i++)
+        {
+            if ((value & (1 << i)) != 0)
+                return i;
+        }
+        return -1;
     }
 
     private void Update()
@@ -155,10 +176,36 @@ public class PlayerController : MonoBehaviour
     // MOVEMENT
     // ==========================
 
+    [Header("Wall Check")]
+    [SerializeField] private float wallCheckDistance = 0.15f;
+
     private void Move()
     {
+        float horizontalInput = moveInput.x;
+
+        if (!isGrounded && Mathf.Abs(horizontalInput) > 0.01f)
+        {
+            Bounds bounds = boxCollider.bounds;
+            float dir = Mathf.Sign(horizontalInput);
+
+            Vector2 rayOrigin = new Vector2(
+                dir > 0 ? bounds.max.x : bounds.min.x,
+                bounds.center.y
+            );
+
+            RaycastHit2D wallHit = Physics2D.Raycast(
+                rayOrigin,
+                Vector2.right * dir,
+                wallCheckDistance,
+                groundLayer
+            );
+
+            if (wallHit.collider != null)
+                horizontalInput = 0;
+        }
+
         rb.velocity = new Vector2(
-            moveInput.x * moveSpeed,
+            horizontalInput * moveSpeed,
             rb.velocity.y
         );
     }
@@ -186,6 +233,10 @@ public class PlayerController : MonoBehaviour
         boxCollider.offset = slideColliderOffset;
         boxCollider.size = slideColliderSize;
 
+        // Ignore collision with enemies during slide
+        Physics2D.IgnoreLayerCollision(playerLayerIndex, enemyLayerIndex, true);
+        if (playerHealth != null) playerHealth.IsSliding = true;
+
         animator.SetTrigger("Slide");
     }
 
@@ -209,6 +260,10 @@ public class PlayerController : MonoBehaviour
             // Restore collider to original values
             boxCollider.offset = originalColliderOffset;
             boxCollider.size = originalColliderSize;
+
+            // Restore collision with enemies
+            Physics2D.IgnoreLayerCollision(playerLayerIndex, enemyLayerIndex, false);
+            if (playerHealth != null) playerHealth.IsSliding = false;
         }
     }
 
@@ -282,17 +337,21 @@ public class PlayerController : MonoBehaviour
     private void CheckGround()
     {
         Bounds bounds = boxCollider.bounds;
+        Vector2 originBottomLeft = new Vector2(bounds.min.x + 0.01f, bounds.min.y);
+        Vector2 originBottomRight = new Vector2(bounds.max.x - 0.01f, bounds.min.y);
+        Vector2 originBottomCenter = new Vector2(bounds.center.x, bounds.min.y);
 
-        RaycastHit2D hit = Physics2D.BoxCast(
-            bounds.center,
-            bounds.size,
-            0f,
-            Vector2.down,
-            groundCheckDistance,
-            groundLayer
+        RaycastHit2D hitLeft = Physics2D.Raycast(
+            originBottomLeft, Vector2.down, groundCheckDistance, groundLayer
+        );
+        RaycastHit2D hitRight = Physics2D.Raycast(
+            originBottomRight, Vector2.down, groundCheckDistance, groundLayer
+        );
+        RaycastHit2D hitCenter = Physics2D.Raycast(
+            originBottomCenter, Vector2.down, groundCheckDistance, groundLayer
         );
 
-        isGrounded = hit.collider != null;
+        isGrounded = hitLeft.collider != null || hitRight.collider != null || hitCenter.collider != null;
     }
 
     private void HandleCoyoteTime()
@@ -364,11 +423,21 @@ public class PlayerController : MonoBehaviour
 
         Bounds bounds = col.bounds;
 
+        Vector2 originBottomLeft = new Vector2(bounds.min.x + 0.02f, bounds.min.y);
+        Vector2 originBottomRight = new Vector2(bounds.max.x - 0.02f, bounds.min.y);
+        Vector2 originBottomCenter = new Vector2(bounds.center.x, bounds.min.y);
+
         Gizmos.color = Color.green;
 
-        Gizmos.DrawWireCube(
-            bounds.center + Vector3.down * groundCheckDistance,
-            bounds.size
-        );
+        Gizmos.DrawLine(originBottomLeft, originBottomLeft + Vector2.down * groundCheckDistance);
+        Gizmos.DrawLine(originBottomCenter, originBottomCenter + Vector2.down * groundCheckDistance);
+        Gizmos.DrawLine(originBottomRight, originBottomRight + Vector2.down * groundCheckDistance);
+
+        Vector2 leftOrigin = new Vector2(bounds.min.x, bounds.center.y);
+        Vector2 rightOrigin = new Vector2(bounds.max.x, bounds.center.y);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(leftOrigin, leftOrigin + Vector2.left * wallCheckDistance);
+        Gizmos.DrawLine(rightOrigin, rightOrigin + Vector2.right * wallCheckDistance);
     }
 }

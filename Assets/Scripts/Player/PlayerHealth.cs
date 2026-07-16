@@ -15,6 +15,7 @@ public class PlayerHealth : MonoBehaviour
 
     public bool IsInvincible => invincibilityTimer > 0f;
     public bool IsKnockedBack => knockbackTimer > 0f;
+    public bool IsSliding { get; set; }
 
     private void Awake()
     {
@@ -38,7 +39,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage, Vector2 knockbackForce)
     {
-        if (isDead || IsInvincible) return;
+        if (isDead || IsInvincible || IsSliding) return;
 
         stats.CurrentHP -= damage;
         invincibilityTimer = stats.InvincibleDuration;

@@ -156,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5922423822672745281, guid: 4ee51b216b04e394d8e9af26439df88e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.22
+      value: 6.14
       objectReference: {fileID: 0}
     - target: {fileID: 5922423822672745281, guid: 4ee51b216b04e394d8e9af26439df88e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -412,7 +412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 911760844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966317928}
   - component: {fileID: 966317929}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: EnemyHurtbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1284038843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VisionPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,8 +784,15 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  groundCheckDistance: 0.05
+  groundCheckDistance: 0.03
   attackCooldown: 0.5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  wallCheckDistance: 0.15
 --- !u!114 &1331750261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,7 +1189,7 @@ GameObject:
   - component: {fileID: 1559403550}
   - component: {fileID: 1559403549}
   - component: {fileID: 1559403548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy_Mus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,7 +1209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 100
-  attackDamage: 10
+  attackDamage: 25
   walkSpeed: 2
   chaseSpeed: 4
   visionRange: 8
@@ -1486,7 +1493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1619771287}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900185100}
   - component: {fileID: 1900185101}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: EnemyHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
